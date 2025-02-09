@@ -9,6 +9,7 @@ Giriş başarılı olursa, sayfanın üst kısmında "Hesabım" linkinin görün
 
 Yanlış şifre ile giriş yapmayı dener ve hata mesajını doğrular.
 Yanlış kullanıcı adı ile giriş yapmayı dener ve hata mesajını doğrular.
+
 Kodun Özellikleri:
 
 @BeforeMethod: Her testten önce Chrome tarayıcısını açar ve Trendyol giriş sayfasına gider.

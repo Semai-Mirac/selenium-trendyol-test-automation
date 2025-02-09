@@ -17,9 +17,13 @@ Yanlış kullanıcı adı ile giriş yapmayı dener ve hata mesajını doğrular
 Kodun Özellikleri:
 
 @BeforeMethod: Her testten önce Chrome tarayıcısını açar ve Trendyol giriş sayfasına gider.
+
 @AfterMethod: Her testten sonra tarayıcıyı kapatır.
+
 WebElement: Web sayfasındaki elementlere erişmek ve etkileşimde bulunmak için kullanılır.
+
 Assert: Beklenen sonuçları gerçek sonuçlarla karşılaştırmak için kullanılır.
+
 Thread.sleep: Belirli bir süre beklemek için kullanılır (örneğin, sayfanın yüklenmesi için).
 
 

@@ -5,14 +5,15 @@ Bu kod, Selenium WebDriver kullanarak Trendyol web sitesindeki giriş fonksiyone
 
 Doğru kullanıcı adı ve şifre ile giriş yapmayı dener.
 Giriş başarılı olursa, sayfanın üst kısmında "Hesabım" linkinin görünüp görünmediğini kontrol eder.
-    
+
+.    
     
 2. Başarısız Giriş Testi (loginUnSuccessful):
 
 Yanlış şifre ile giriş yapmayı dener ve hata mesajını doğrular.
 Yanlış kullanıcı adı ile giriş yapmayı dener ve hata mesajını doğrular.
     
-    
+.    
     
 Kodun Özellikleri:
 
@@ -26,7 +27,7 @@ Assert: Beklenen sonuçları gerçek sonuçlarla karşılaştırmak için kullan
 
 Thread.sleep: Belirli bir süre beklemek için kullanılır (örneğin, sayfanın yüklenmesi için).
     
-    
+.    
     
 Özet:
     

@@ -1,3 +1,4 @@
+import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,15 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTest {
-    WebDriver driver;
+public class LoginTest extends BaseTest {
 
-    @BeforeMethod
-    public void openBrowser(){
-        driver = new ChromeDriver();
-        driver.get("https://www.trendyol.com/giris");
-        driver.manage().window().maximize();
-    }
 
     @Test
     public void loginSuccessful() throws InterruptedException {
@@ -47,8 +41,5 @@ public class LoginTest {
         Assert.assertEquals(driver.findElement(By.cssSelector("[class='message']")).getText(),"E-posta adresiniz ve/veya şifreniz hatalı.");
     }
 
-    @AfterMethod
-    public void closeBrowser(){
-        driver.quit();
-    }
+
 }

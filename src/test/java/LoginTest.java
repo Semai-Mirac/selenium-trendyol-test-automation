@@ -13,8 +13,8 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void loginSuccessful() throws InterruptedException {
-        driver.findElement(By.id("login-email")).sendKeys("ririwer150@perceint.com");
-        driver.findElement(By.name("login-password")).sendKeys("Fidantest123.");
+        driver.findElement(By.id("login-email")).sendKeys(email);
+        driver.findElement(By.name("login-password")).sendKeys(password);
         driver.findElement(By.cssSelector("[class='q-primary q-fluid q-button-medium q-button submit']")).click();
         Thread.sleep(3000);
         String text = driver.findElements(By.cssSelector("[class='link-text']")).get(0).getText();

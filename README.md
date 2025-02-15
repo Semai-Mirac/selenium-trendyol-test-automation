@@ -4,9 +4,9 @@
 
 3-  Test Durumları (Test Cases): LoginTest sınıfı, gerçek test senaryolarını içerir:
 
-#  loginSuccessful(): Başarılı bir giriş senaryosunu test eder. Geçerli e-posta ve şifre bilgilerini kullanarak giriş yapar ve başarılı bir şekilde giriş yapıldığını doğrulamak için "Hesabım" elementinin varlığını kontrol eder.
+...  loginSuccessful(): Başarılı bir giriş senaryosunu test eder. Geçerli e-posta ve şifre bilgilerini kullanarak giriş yapar ve başarılı bir şekilde giriş yapıldığını doğrulamak için "Hesabım" elementinin varlığını kontrol eder.
 
-#  loginUnSuccessful(): Başarısız giriş senaryolarını test eder. Önce yanlış bir şifre ile giriş yapmayı dener ve beklenen hata mesajının görüntülenip görüntülenmediğini kontrol eder. Ardından, farklı bir geçersiz e-posta adresiyle giriş yapmayı dener ve yine hata mesajını kontrol eder.
+...  loginUnSuccessful(): Başarısız giriş senaryolarını test eder. Önce yanlış bir şifre ile giriş yapmayı dener ve beklenen hata mesajının görüntülenip görüntülenmediğini kontrol eder. Ardından, farklı bir geçersiz e-posta adresiyle giriş yapmayı dener ve yine hata mesajını kontrol eder.
 
 4-  Doğrulama (Assertions): Kodda doğrudan bir assertion mekanizması görünmüyor. mainPage.accountControl() ve loginPage.errorMessageControl() metotlarının içinde doğrulama işlemleri yapıldığı varsayılıyor. Ancak, TestNG'nin Assert sınıfı gibi daha açık assertion mekanizmalarının kullanılması daha iyi bir uygulama olacaktır.
 

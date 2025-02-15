@@ -7,16 +7,17 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.LoginPage;
 
 public class LoginTest extends BaseTest {
 
-
     @Test
-    public void loginSuccessful() throws InterruptedException {
-        driver.findElement(By.id("login-email")).sendKeys(email);
-        driver.findElement(By.name("login-password")).sendKeys(password);
-        driver.findElement(By.cssSelector("[class='q-primary q-fluid q-button-medium q-button submit']")).click();
-        Thread.sleep(3000);
+    public void loginSuccessful(){
+        LoginPage loginPage = new LoginPage();
+        loginPage.fillEmail(email)
+                .fillPassword(password)
+                        .clickLogin();
+        sleep(3000);
         String text = driver.findElements(By.cssSelector("[class='link-text']")).get(0).getText();
         System.out.println(text);
         Assert.assertEquals(text,"Hesabım");

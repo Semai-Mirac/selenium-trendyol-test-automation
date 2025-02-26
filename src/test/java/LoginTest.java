@@ -59,6 +59,7 @@ public class LoginTest extends BaseTest {
                 .errorMessageControl("E-posta alanı minimum 10 karakter olmalıdır")
                 .fillEmail("meldazehraecemdineknurusluterzioğlulkajdbalsdbfaljbf")
                 .fillPassword("241507587965844758sgfuagfjkadshfushıhljkjbvkhv")
+                .clickLogin()
                 .errorMessageControl("E-posta alanına maximum 50 karakter olmalıdır");
     }
 

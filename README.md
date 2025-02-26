@@ -1,6 +1,6 @@
 # Trendyol Test Automation
 
-Bu proje, Trendyol web sitesi için otomatik test senaryolarını geliştirmek amacıyla oluşturulmuştur. Test senaryoları, kullanıcı davranışlarını simüle ederek web sitesi performansını, işlevselliğini ve kullanıcı deneyimini doğrulamayı hedefler.🚀 
+Bu proje, Trendyol web sitesi için otomatik test senaryolarını geliştirmek amacıyla oluşturulmuştur. Test senaryoları, kullanıcı davranışlarını simüle ederek web sitesi performansını, işlevselliğini ve kullanıcı deneyimini doğrulamayı hedefler. 
   ## 🎓 Eğitim ve Workshop Katılımı
 
 - **techcareer.net E2E Selenium Test Automation Workshop**  
@@ -12,12 +12,12 @@ Bu proje, Trendyol web sitesi için otomatik test senaryolarını geliştirmek a
     - Eğitimi tamamlayan katılımcılar başarı sertifikası almaya hak kazanmıştır.
 
       
-### 📋 Özellikler
+###  Özellikler
 Test Senaryoları:
 - Üye olma ve giriş yapma.
 - Ürün arama ve filtreleme.
 
-### 🚀 Teknolojiler 
+###  Teknolojiler 
 - 🖥️ Java
 - 🌐 Selenium
 - 🧪 TestNG
@@ -26,14 +26,14 @@ Test Senaryoları:
 - 📊 Allure Reports
 Raporlama: Test sonuçlarının otomatik olarak Allure Reports ile görselleştirilmesi.
 
-### 💻 Nasıl Çalıştırılır?
+###  Nasıl Çalıştırılır?
 Gereksinimler:
 - Java (17 veya 21)
 - Maven
 - Jenkins (CI/CD süreçleri için)
 - Allure Commandline (raporları çalıştırmak için)
 
-### 🛠 Kullanılan Araçlar
+###  Kullanılan Araçlar
 - Selenium WebDriver: Web otomasyonu için.
 - TestNG: Test yönetimi ve raporlama.
 - Allure Reports: Test sonuçlarını görselleştirme.
